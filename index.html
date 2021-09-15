@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de moedas - Dev Camila</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        </h1>
+        <p class="page-subtitle">
+          Descubra os valores em dolar, Euro ou Bitcoin.
+        </p>
+        <img src="img/logoAlura.svg" class="page-logo" alt=""><br><br>
+        <div>
+            <label for="moeda">Insira o valor</label><br>
+        <input type="number" id="valor" size="2" /><br>
+        <select name="moeda" id="moeda">
+            <option value="select">
+                Selecione a moeda
+            </option>
+            <option id="dolar" value="dolar">
+                Dolar 
+            </option>
+            <option id="euro" value="euro">
+                Euro
+            </option>
+            <option id="bit" value="bit">
+                Bitcoin
+            </option>
+        </select>
+        </div>
+        <button type="submit" onclick="Converter()">Converter</button>
+        <div id="valorConvertidoDolar" class="valorConvertidoDolar" style="display:none;"></div>        
+        <div id="valorConvertidoEuro" class="valorConvertidoEuro" style="display:none;"></div>        
+        <div id="valorConvertidoBit" class="valorConvertidoBit" style="display:none;"></div>    
+        <div id="valorConvertidoErro" class="valorConvertidoErro" style="display:none;"></div>    
+        <div id="valorConvertidoErroValor" class="valorConvertidoErroValor" style="display:none;"></div>    
+      </div>
+      
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        
+        <footer className="footer-container">
+            <nav className="footer-nav">
+              <ul className="footer-ul">            
+                <li><a class="git" target="blank" href="https://github.com/devcamila">Github</a></li>
+                <li><a class="link" target="blank" href="https://www.linkedin.com/in/camila-lacerda/">Linkedin</a></li>     
+                <li><a class="twitter" target="blank" href="https://twitter.com/devcamila3">Twitter</a></li>           
+              </ul>
+            </nav>        
+          </footer>
+        <script src="main.js"></script>
+    </body>
+</html>

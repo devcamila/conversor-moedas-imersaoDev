@@ -1,0 +1,110 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: hsl(0, 0%, 95%);
+    background-image: url(coin.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -200px;
+    margin-top:20px;
+}
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #282828;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #756653;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+    background-color: #282828;
+    padding: 5px
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(74, 72, 72);
+    padding: 10px;
+  }
+  
+
+  /* Campos */
+  input, select {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+    border: 3px solid 
+  }
+  
+  label {
+    color: #282828;
+  }
+  
+  button {
+    margin-top: 12px;
+    padding: 6px 8px;    
+    border-radius: 5px;    
+    background-color: #618284;
+    color:#ffffff;
+    border:none;
+  }
+
+  input:hover, select:hover {
+   border: 3px solid #618284;    
+  }
+
+  button:hover {
+    background-color: #fff;
+    color: #458588;   
+
+  }
+
+  /* Resultado */
+ .valorConvertidoDolar,  .valorConvertidoEuro,  .valorConvertidoBit,  .valorConvertidoErro, .valorConvertidoErroValor {
+  margin-top: 20px;
+  border: 3px solid #83a598;
+  border-radius: 5px;
+  width: 30%;
+  padding: 20px;
+  margin-left: 490px;
+ }
+
+ /* Rodapé */
+ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  color: #282828;
+  padding: 10px;
+}
+
+.git:hover {
+  color: #83A598;
+}
+
+.link:hover {
+  color: #D3869B;
+}
+
+.twitter:hover {
+  color: #8EC07C;
+}
+
